@@ -3,7 +3,7 @@ cc=gcc
 cflags=-Wall --std=c11
 lflags=-Wall --std=c11
 
-objects=main.o
+objects=main.o life.o
 
 %.o: %.c
 	$(cc) -c $(cflags) -o $@ $^
